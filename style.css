@@ -1,0 +1,154 @@
+/* .Rtable-row1 {
+    background-color: #1f9aff;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    width: 5px;
+    display: flexbox;
+    text-align: center;
+}
+  
+tr:nth-child(even) {
+    background-color: #006eff;
+}
+
+tr:nth-child(odd) {
+    background-color: #009e08;
+}
+
+tr:hover {
+    background-color: #ddd;
+    opacity: 50%;
+}
+
+tr:nth-child(even):hover {
+    background-color: #6985ff;
+  }
+
+tr:nth-child(odd):hover {
+    background-color: #00ff55;
+  }
+
+td:hover {
+    background-color: #7c7c7c;
+} */
+
+.tombol a {
+    color: #fff;
+    font-weight: bolder;
+}
+
+.tombol-detail {
+    background-color: rgb(50, 187, 46);
+    /* color: white; */
+    padding: 10px 0px;
+    display: block;
+    margin:  auto;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    /* color: blue; */
+}
+.tombol-edit {
+    background-color: rgb(50, 98, 255);
+    /* color: white; */
+    padding: 10px 0px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    /* color: blue; */
+}
+.tombol-hapus {
+    background-color: rgb(255, 0, 0);
+    /* color: white; */
+    padding: 10px 0px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    /* color: blue; */
+}
+  
+.tombol_detail:hover, .tombol-buat:hover {
+    background-color: rgb(50, 219, 40);
+}
+.tombol_edit:hover, .tombol-out:hover {
+    background-color: rgb(20, 153, 255);
+}
+.tombol_hapus:hover {
+    background-color: rgb(255, 50, 50);
+}
+
+.tombol {
+    text-align: center;
+} 
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+
+  table {
+    margin-top: 5px;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #222;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #9b9b9b;
+  }
+
+  th {
+    background-color: #fff;
+    color: #000;
+  }
+
+  tr:nth-child(even) {
+    background-color: #333;
+  }
+
+  tr:hover {
+    background-color: #555;
+  }
+
+.tombol-out {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(50, 98, 255);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+.tombol-buat {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(50, 187, 46);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+  }
